@@ -1,0 +1,88 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: rgb(247, 203, 137);
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1em;
+}
+h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.user-details img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px;
+}
+
+.user-details h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.user-details p {
+  padding: 10px;
+  font-size: 1em;
+  text-decoration: underline;
+}
+
+.github-user {
+  margin: 40px;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.flex h3 {
+  font-size: 2rem;
+}
+
+.followers ul,
+.following ul {
+  list-style: none;
+}
+
+.followers li img,
+.following li img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid #000;
+  margin: 10px;
+}
+.random-cat {
+  margin: 30px;
+}
+.random-cat h2 {
+  font-size: 2.2em;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.random-cat img {
+  width: 300px;
+  margin: 20px;
+}
+
+button {
+  font-size: 30px;
+  font-weight: 500;
+}
